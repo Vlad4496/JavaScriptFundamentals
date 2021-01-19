@@ -1,26 +1,13 @@
-let button = document.getElementById("check")
-button.addEventListener("click", function () {
-    let planet = document.getElementById("redplanet")
-    planet.innerText = "Aliens invasion"
-    planet.classList.add("alert")
-    // planet.style.color = "red"
-    // planet.style.fontWeight = "bold"
-    // planet.remove()
+let check = document.getElementById("check")
+check.addEventListener("click", function() {
+    let redPlanet = document.getElementById("redplanet")
+    redPlanet.innerText = "Error Message"
+    redPlanet.classList.add("alert")
 })
+
 let reset = document.getElementById("reset")
-reset.addEventListener("click", function () {
-    let planet = document.getElementById("redplanet")
-    planet.innerText = "Nothing to report"
-    planet.classList.remove("alert")
+reset.addEventListener("click", function() {
+    let redPlanet = document.getElementById("redplanet")
+    redPlanet.innerText = "Nothing to report"
+    redPlanet.classList.remove("alert")
 })
-
-document.getElementById("greenplanet")
-    .addEventListener("click", function () {
-        document.getElementById("greenplanet").classList.add("alert")
-    })
-
-
-
-
-
-

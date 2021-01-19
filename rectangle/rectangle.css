@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div {
+    background-color: blue;
+    height: 20em;
+    width: 40em;
+}
+.disappear {
+    animation-name: disappear;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: both;
+}
+@keyframes disappear {
+    50% {
+        background-color: white;
+    }
+}

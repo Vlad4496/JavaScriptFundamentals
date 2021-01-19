@@ -8,4 +8,4 @@ for (let w = 0; w <= 11; w++) {
             document.write("0")
         }
     }
-}
+}   
