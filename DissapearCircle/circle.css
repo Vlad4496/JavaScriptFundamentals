@@ -1,0 +1,18 @@
+div {
+    height: 4em;
+    width: 4em;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 10em;
+    top: 10em;
+}
+.circle {
+    animation-name: dissapear;
+    animation-fill-mode: both;
+}
+@keyframes dissapear {
+    to {
+        transform: translate(50vw, 50vh);
+    }
+}
