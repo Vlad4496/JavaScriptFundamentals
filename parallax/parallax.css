@@ -1,0 +1,15 @@
+body {
+    font-size: 1.4em;
+}
+#parallax, #parallax2 {
+    background-image: url("photo.jpeg");
+    background-size: cover;
+    height: 60vh;
+    background-attachment: fixed;
+}
+/* #parallax2 {
+    background-image: url("photo2.jpeg");
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+} */
