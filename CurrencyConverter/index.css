@@ -38,6 +38,11 @@ input {
     background-color: mediumaquamarine;
     font-weight: bold;
 }
+#button:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
 label {
     font-weight: bold;
     display: block;

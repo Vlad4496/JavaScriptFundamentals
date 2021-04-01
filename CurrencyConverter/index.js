@@ -37,13 +37,15 @@
 
 
 var convert = document.querySelector("#button")
-
-
 convert.addEventListener("click", celsiusToFarenheit)
-
 function celsiusToFarenheit() {
     let converter = document.getElementById("celsius").value 
     let formula = converter * 1.8 + 32
     document.getElementById("farenheit").value = formula
 
 }
+
+// array = [1, 2, 3, 4, 5]
+
+// let sum = array.map(element => element += element)
+// document.write(sum)
